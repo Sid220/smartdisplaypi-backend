@@ -1,0 +1,5 @@
+{
+    "require": {
+        "zoonman/pixabay-php-api": "^1.0"
+    }
+}
