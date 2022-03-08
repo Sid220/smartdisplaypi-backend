@@ -1,22 +1,33 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '69e013b578436c5a6fb5d4982ba2d68eaffff287',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '69e013b578436c5a6fb5d4982ba2d68eaffff287',
+            'dev_requirement' => false,
+        ),
+        'buchin/google-suggest' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../buchin/google-suggest',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '1529bbd0dfaf521c43ff1adb3ffde639ecf6bb25',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(

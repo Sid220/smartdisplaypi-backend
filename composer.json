@@ -1,5 +1,6 @@
 {
     "require": {
-        "zoonman/pixabay-php-api": "^1.0"
+        "zoonman/pixabay-php-api": "^1.0",
+        "buchin/google-suggest": "dev-master"
     }
 }

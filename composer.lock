@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b27929d0ff05f5c44a01e17c19ff49d5",
+    "content-hash": "f10ae635ba73ed20003a0e6c4c41e281",
     "packages": [
+        {
+            "name": "buchin/google-suggest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buchin/google-suggest.git",
+                "reference": "1529bbd0dfaf521c43ff1adb3ffde639ecf6bb25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buchin/google-suggest/zipball/1529bbd0dfaf521c43ff1adb3ffde639ecf6bb25",
+                "reference": "1529bbd0dfaf521c43ff1adb3ffde639ecf6bb25",
+                "shasum": ""
+            },
+            "require-dev": {
+                "kahlan/kahlan": "^3.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Buchin\\GoogleSuggest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Halal"
+            ],
+            "authors": [
+                {
+                    "name": "Mochammad Masbuchin",
+                    "email": "buchin@dropsugar.com"
+                }
+            ],
+            "description": "Google keyword suggestion scraper",
+            "support": {
+                "issues": "https://github.com/buchin/google-suggest/issues",
+                "source": "https://github.com/buchin/google-suggest/tree/master"
+            },
+            "time": "2020-09-22T17:07:32+00:00"
+        },
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.5.5",
@@ -674,7 +715,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "buchin/google-suggest": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
